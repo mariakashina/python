@@ -1,0 +1,5 @@
+odd_to_n = (odd_num for odd_num in range(1, int(input()) + 1) if odd_num % 2 == 1)
+print(next(odd_to_n))
+print(next(odd_to_n))
+print(next(odd_to_n))
+print(next(odd_to_n))
